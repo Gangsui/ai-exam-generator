@@ -1,0 +1,65 @@
+# ── 환경/시스템 ──
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+
+# ── 데이터 파일 (저작권·용량) ──
+questions.db
+*.csv
+*.xlsx
+*.hwp
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.json
+*.jsonl
+*.txt
+!requirements.txt
+
+# ── 데이터 디렉토리 ──
+학교문제/
+모의고사문제/
+입력_교과서/
+입력_모의고사/
+고1_학교문제_txt/
+고1_학교문제_원본/
+학교교과서본문_공통영어1/
+학교교과서본문_공통영어2/
+output/
+review_queue/
+compiled_questions/
+exam4you_classified/
+exam4you_classified_txt/
+exam4you_downloads/
+llm_code/
+Rag/
+
+# ── 설정 (API 키 포함) ──
+config.py
+
+# ── 불필요한 스크립트/노트 ──
+view_db.py
+debug_ingest.py
+test_pipeline.py
+tests/
+exam_collect.py
+example.py
+main.py
+make_exam.py
+generate_questions.py
+run_pipeline.py
+pipeline/parsers/__init__.py
+pipeline/classifiers/__init__.py
+pipeline/__init__.py
+
+# ── 문서 (내부용) ──
+전체_방향성.md
+중간점검_20260226.md
+현재_작업_상태.md
+현재상태_정리.md
+*.ipynb
+
